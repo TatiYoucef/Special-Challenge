@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #fff;
+  overflow: hidden;
+}
+
+.content {
+  margin: 0px auto;
+  padding: 20px;
+  height: 100vh;
+  text-align: center;
+
+  background-image: url("imgs/padlock-iron-door-symbol-0ec6ed24f4b6f44755067dc9c704203d.jpg");
+  background-position: center;
+  background-size: cover ;
+  background-color: #5681f5;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+p{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.textField{
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+input{
+
+  width: 90%;
+  max-width: 300px;
+  padding: 5px 10px;
+  margin: 30px 10px ;
+  font-size: 20px;
+  border: 3px solid #3577f1;
+  border-radius: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.forgotten{
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.submit-button {
+  background: #3577f1;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 20px;
+  margin: 40px 0 ;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+
+  transition: 200ms;
+}
+
+.submit-button:hover{
+  background:  #fff;
+  color: #3577f1 ;
+}
+
+.submit-button:active{
+  background: #3577f1;
+  color: #fff;
+  transition: 100ms;
+}
+
+.TheVault {
+
+  margin-top: 50px;
+  background-color: rgb(46, 240, 146);
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: black 5px 5px 5px;
+
+}
